@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Project Expense Tracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_add_project">Add New Project</string>
+    <string name="nav_view_projects">View All Projects</string>
+    <string name="nav_search">Search Projects</string>
+
+    <!-- Project Form Labels -->
+    <string name="label_project_code">Project ID / Code *</string>
+    <string name="label_project_name">Project Name *</string>
+    <string name="label_description">Project Description *</string>
+    <string name="label_start_date">Start Date *</string>
+    <string name="label_end_date">End Date *</string>
+    <string name="label_manager">Project Manager / Owner *</string>
+    <string name="label_status">Project Status *</string>
+    <string name="label_budget">Project Budget *</string>
+    <string name="label_special_reqs">Special Requirements</string>
+    <string name="label_client_dept">Client / Department</string>
+    <string name="label_priority">Priority Level *</string>
+    <string name="label_notes">Additional Notes</string>
+
+    <!-- Expense Form Labels -->
+    <string name="label_expense_code">Expense ID / Code *</string>
+    <string name="label_expense_date">Date of Expense *</string>
+    <string name="label_amount">Amount *</string>
+    <string name="label_currency">Currency *</string>
+    <string name="label_expense_type">Type of Expense *</string>
+    <string name="label_payment_method">Payment Method *</string>
+    <string name="label_claimant">Claimant *</string>
+    <string name="label_payment_status">Payment Status *</string>
+    <string name="label_expense_desc">Description</string>
+    <string name="label_location">Location</string>
+    <string name="label_receipt_number">Receipt Number</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Save</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm &amp; Save</string>
+    <string name="btn_back_edit">Back to Edit</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_add_expense">Add Expense</string>
+    <string name="btn_advanced_search">Advanced Search</string>
+
+    <!-- Validation Messages -->
+    <string name="error_required">This field is required</string>
+    <string name="error_invalid_budget">Please enter a valid budget amount</string>
+    <string name="error_invalid_amount">Please enter a valid amount</string>
+    <string name="error_date_order">End date must be after start date</string>
+    <string name="error_enter_project_code">Please enter the Project ID/Code</string>
+    <string name="error_enter_project_name">Please enter the Project Name</string>
+    <string name="error_enter_description">Please enter the Project Description</string>
+    <string name="error_enter_start_date">Please enter the Start Date</string>
+    <string name="error_enter_end_date">Please enter the End Date</string>
+    <string name="error_enter_manager">Please enter the Project Manager</string>
+    <string name="error_enter_status">Please select a Project Status</string>
+    <string name="error_enter_budget">Please enter the Project Budget</string>
+    <string name="error_enter_priority">Please select a Priority Level</string>
+    <string name="error_enter_expense_code">Please enter the Expense ID/Code</string>
+    <string name="error_enter_expense_date">Please enter the Date of Expense</string>
+    <string name="error_enter_amount">Please enter the Amount</string>
+    <string name="error_enter_currency">Please select a Currency</string>
+    <string name="error_enter_expense_type">Please select a Type of Expense</string>
+    <string name="error_enter_payment_method">Please select a Payment Method</string>
+    <string name="error_enter_claimant">Please enter the Claimant</string>
+    <string name="error_enter_payment_status">Please select a Payment Status</string>
+
+    <!-- Success Messages -->
+    <string name="msg_project_saved">Project saved successfully</string>
+    <string name="msg_project_updated">Project updated successfully</string>
+    <string name="msg_project_deleted">Project deleted</string>
+    <string name="msg_expense_saved">Expense saved successfully</string>
+    <string name="msg_expense_updated">Expense updated successfully</string>
+    <string name="msg_expense_deleted">Expense deleted</string>
+    <string name="msg_db_reset">Database reset successfully</string>
+
+    <!-- Empty States -->
+    <string name="msg_no_projects">No projects found.\nTap the button below to add one.</string>
+    <string name="msg_no_expenses">No expenses recorded.\nTap the + button to add one.</string>
+    <string name="msg_no_results">No matching projects found.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_project_title">Delete Project</string>
+    <string name="dialog_delete_project_msg">Delete this project and all its expenses? This cannot be undone.</string>
+    <string name="dialog_delete_expense_title">Delete Expense</string>
+    <string name="dialog_delete_expense_msg">Delete this expense record? This cannot be undone.</string>
+    <string name="dialog_reset_db_title">Reset Database</string>
+    <string name="dialog_reset_db_msg">This will permanently delete ALL projects and expenses. This cannot be undone. Continue?</string>
+    <string name="dialog_yes_delete">Yes, Delete</string>
+    <string name="dialog_yes_reset">Yes, Reset All</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Search Screen -->
+    <string name="title_search">Search Projects</string>
+    <string name="hint_search_basic">Enter project name or description…</string>
+    <string name="label_advanced_search">Advanced Filters</string>
+    <string name="label_filter_date">Date filter (YYYY-MM-DD)</string>
+    <string name="label_filter_status">Status filter</string>
+    <string name="label_filter_owner">Owner / Manager filter</string>
+    <string name="hint_all_statuses">All Statuses</string>
+    <string name="tab_basic_search">Basic Search</string>
+    <string name="tab_advanced_search">Advanced Search</string>
+
+    <!-- Section Headers -->
+    <string name="section_project_details">Project Details</string>
+    <string name="section_optional_info">Additional Information</string>
+    <string name="section_expenses">Expenses</string>
+    <string name="section_budget_summary">Budget Summary</string>
+
+    <!-- Menu Items -->
+    <string name="menu_reset_db">Reset Database</string>
+    <string name="menu_edit_project">Edit Project</string>
+    <string name="menu_delete_project">Delete Project</string>
+
+    <!-- Budget Summary Labels -->
+    <string name="label_total_expenses">Total Expenses</string>
+    <string name="label_remaining_budget">Remaining Budget</string>
+    <string name="label_expense_count">No. of Expenses</string>
+
+    <!-- Confirmation Screen -->
+    <string name="title_confirm_project">Confirm Project Details</string>
+    <string name="title_confirm_desc">Please review the project details before saving.</string>
+</resources>

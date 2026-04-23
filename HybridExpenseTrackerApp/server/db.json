@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "localId": 9,
+      "projectCode": "test",
+      "projectName": "test",
+      "description": "test",
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-23",
+      "manager": "test",
+      "status": "Active",
+      "budget": 7446,
+      "priority": "High",
+      "specialRequirements": "",
+      "clientDepartment": "",
+      "notes": "",
+      "createdAt": "2026-04-23",
+      "expenses": [
+        {
+          "localId": 3,
+          "expenseCode": "test",
+          "expenseDate": "2026-04-23",
+          "amount": 345,
+          "currency": "USD",
+          "expenseType": "Travel",
+          "paymentMethod": "Cash",
+          "claimant": "test",
+          "paymentStatus": "Pending",
+          "description": "",
+          "location": "",
+          "receiptNumber": "",
+          "createdAt": "2026-04-23"
+        },
+        {
+          "expenseCode": "testEx",
+          "expenseDate": "2026-04-23",
+          "amount": 222,
+          "currency": "GBP",
+          "expenseType": "Equipment",
+          "paymentMethod": "Credit Card",
+          "claimant": "testEx",
+          "paymentStatus": "Paid",
+          "description": "",
+          "location": "",
+          "receiptNumber": "",
+          "createdAt": "2026-04-23"
+        }
+      ],
+      "expenseCount": 2
+    }
+  ]
+}

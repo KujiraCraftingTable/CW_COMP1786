@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorPrimaryLight">#1976D2</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorPrimaryVariant">#0D47A1</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#FF6F00</color>
+    <color name="colorSecondaryVariant">#E65100</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="statusActive">#2E7D32</color>
+    <color name="statusCompleted">#1565C0</color>
+    <color name="statusOnHold">#E65100</color>
+
+    <!-- Payment Status Colors -->
+    <color name="paymentPaid">#2E7D32</color>
+    <color name="paymentPending">#E65100</color>
+    <color name="paymentReimbursed">#6A1B9A</color>
+
+    <!-- Priority Colors -->
+    <color name="priorityHigh">#C62828</color>
+    <color name="priorityMedium">#F57F17</color>
+    <color name="priorityLow">#2E7D32</color>
+
+    <!-- UI Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="backgroundLight">#F5F5F5</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textHint">#9E9E9E</color>
+    <color name="errorColor">#B71C1C</color>
+
+    <!-- Legacy (keep for compat) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Required for HTTP uploads -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Required to check connectivity before uploading -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExpenseTrackerApp"
+        android:usesCleartextTraffic="true">
+
+        <!-- Main / Dashboard -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Add / Edit Project -->
+        <activity
+            android:name=".AddEditProjectActivity"
+            android:exported="false"
+            android:label="Add Project"
+            android:parentActivityName=".ProjectListActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Project Confirmation -->
+        <activity
+            android:name=".ProjectConfirmActivity"
+            android:exported="false"
+            android:label="Confirm Project" />
+
+        <!-- Project List -->
+        <activity
+            android:name=".ProjectListActivity"
+            android:exported="false"
+            android:label="All Projects"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Project Detail -->
+        <activity
+            android:name=".ProjectDetailActivity"
+            android:exported="false"
+            android:label="Project Detail"
+            android:parentActivityName=".ProjectListActivity" />
+
+        <!-- Add / Edit Expense -->
+        <activity
+            android:name=".AddEditExpenseActivity"
+            android:exported="false"
+            android:label="Add Expense"
+            android:parentActivityName=".ProjectDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Search -->
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:label="Search Projects"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Upload to Cloud -->
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false"
+            android:label="Upload to Cloud"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>
